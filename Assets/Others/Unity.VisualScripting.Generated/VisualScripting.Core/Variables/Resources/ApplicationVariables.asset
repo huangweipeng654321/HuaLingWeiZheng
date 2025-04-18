@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c63e9930078442aa987ca9a1511ae44, type: 3}
+  m_Name: ApplicationVariables
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Flow","collection":{"$content":[{"name":"Managers","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GameManager","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MouseManager","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AudioManager","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SceneManager","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UICanvas","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LevelTextList","value":{"$content":["O2\u7684\u6027\u8d28","H2\u7684\u6027\u8d28","CO2\u7684\u6027\u8d28","H2O\u7684\u6027\u8d28","\u9178\u7684\u6027\u8d28","\u78b1\u7684\u6027\u8d28","\u76d0\u7684\u6027\u8d28","\u76d0\u7684\u6027\u8d28"],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"\u7269\u8d28\u4fe1\u606f\u5bf9\u7167\u8868","value":{"$content":[{"Key":{"$content":"H2O","$type":"System.String"},"Value":{"$content":0,"$type":"UnityEngine.Object"}},{"Key":{"$content":"C","$type":"System.String"},"Value":{"$content":1,"$type":"UnityEngine.Object"}},{"Key":{"$content":"CO2","$type":"System.String"},"Value":{"$content":2,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Cu","$type":"System.String"},"Value":{"$content":3,"$type":"UnityEngine.Object"}},{"Key":{"$content":"CuO","$type":"System.String"},"Value":{"$content":4,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Fe","$type":"System.String"},"Value":{"$content":5,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Fe2O3","$type":"System.String"},"Value":{"$content":6,"$type":"UnityEngine.Object"}},{"Key":{"$content":"H2","$type":"System.String"},"Value":{"$content":7,"$type":"UnityEngine.Object"}},{"Key":{"$content":"HCl","$type":"System.String"},"Value":{"$content":8,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Na","$type":"System.String"},"Value":{"$content":9,"$type":"UnityEngine.Object"}},{"Key":{"$content":"NaCl","$type":"System.String"},"Value":{"$content":10,"$type":"UnityEngine.Object"}},{"Key":{"$content":"NaOH","$type":"System.String"},"Value":{"$content":11,"$type":"UnityEngine.Object"}},{"Key":{"$content":"O2","$type":"System.String"},"Value":{"$content":12,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Zn","$type":"System.String"},"Value":{"$content":13,"$type":"UnityEngine.Object"}},{"Key":{"$content":"ZnCl2","$type":"System.String"},"Value":{"$content":14,"$type":"UnityEngine.Object"}},{"Key":{"$content":"CaCO3","$type":"System.String"},"Value":{"$content":15,"$type":"UnityEngine.Object"}},{"Key":{"$content":"CaCl2","$type":"System.String"},"Value":{"$content":16,"$type":"UnityEngine.Object"}},{"Key":{"$content":"CuSO4","$type":"System.String"},"Value":{"$content":17,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Cu(OH)2","$type":"System.String"},"Value":{"$content":18,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Na2SO4","$type":"System.String"},"Value":{"$content":19,"$type":"UnityEngine.Object"}},{"Key":{"$content":"H2SO4","$type":"System.String"},"Value":{"$content":20,"$type":"UnityEngine.Object"}},{"Key":{"$content":"NaHSO4","$type":"System.String"},"Value":{"$content":21,"$type":"UnityEngine.Object"}},{"Key":{"$content":"AgNO3","$type":"System.String"},"Value":{"$content":22,"$type":"UnityEngine.Object"}},{"Key":{"$content":"AgCl","$type":"System.String"},"Value":{"$content":23,"$type":"UnityEngine.Object"}},{"Key":{"$content":"NaNO3","$type":"System.String"},"Value":{"$content":24,"$type":"UnityEngine.Object"}},{"Key":{"$content":"BaCl2","$type":"System.String"},"Value":{"$content":25,"$type":"UnityEngine.Object"}},{"Key":{"$content":"BaSO4","$type":"System.String"},"Value":{"$content":26,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Na2CO3","$type":"System.String"},"Value":{"$content":27,"$type":"UnityEngine.Object"}},{"Key":{"$content":"Fe(OH)3","$type":"System.String"},"Value":{"$content":28,"$type":"UnityEngine.Object"}},{"Key":{"$content":"FeCl3","$type":"System.String"},"Value":{"$content":29,"$type":"UnityEngine.Object"}}],"$type":"Unity.VisualScripting.AotDictionary"},"typeHandle":{"Identification":"Unity.VisualScripting.AotDictionary,
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 564413107b482eb47bf5f89d724108a4, type: 2}
+    - {fileID: 11400000, guid: b736ab9de47da5340ab0af7b5e79b313, type: 2}
+    - {fileID: 11400000, guid: ff0ea5543c017924ba69e37ed8834110, type: 2}
+    - {fileID: 11400000, guid: dafc1d6178fc8db4bbc1a8a600d9cef0, type: 2}
+    - {fileID: 11400000, guid: f741a09b439afbf41bd8be44e2524868, type: 2}
+    - {fileID: 11400000, guid: 9eb77671b59fccf4d9a88a1fa49ca238, type: 2}
+    - {fileID: 11400000, guid: 1a227a4455f6f5e48b49cb9d8f890114, type: 2}
+    - {fileID: 11400000, guid: e892c9c7746748f4ba2e219dc3a88538, type: 2}
+    - {fileID: 11400000, guid: 9be9ef7be91de3e499dca02320d6783c, type: 2}
+    - {fileID: 11400000, guid: 4380621ceda80194183e748606aef293, type: 2}
+    - {fileID: 11400000, guid: 2eea00806ff574246b5f389eaba16c2d, type: 2}
+    - {fileID: 11400000, guid: 1737b47ca3846f04c9925e00e5dead82, type: 2}
+    - {fileID: 11400000, guid: 86c5acc3d046ea24a9befced2fc3de64, type: 2}
+    - {fileID: 11400000, guid: 0f225de5526e4674cae71ec485c3057d, type: 2}
+    - {fileID: 11400000, guid: 731964b00e3733643a91d24b0a4195b1, type: 2}
+    - {fileID: 11400000, guid: 021357e7cb195234b96fd7f2c493356d, type: 2}
+    - {fileID: 11400000, guid: c5df591f8dc2e984d8c3d5b7eb0b8fda, type: 2}
+    - {fileID: 11400000, guid: 9bb5d9af4bb15954c996966294f4fbfb, type: 2}
+    - {fileID: 11400000, guid: ff85c9c2158256a4ba94dddb73db63eb, type: 2}
+    - {fileID: 11400000, guid: 8640d6caccaf9f84b835016564622d8f, type: 2}
+    - {fileID: 11400000, guid: ee6770db496fcc34eafbdcced64c1877, type: 2}
+    - {fileID: 11400000, guid: 16540bb66d677a145b185be35914877b, type: 2}
+    - {fileID: 11400000, guid: 879cd8b9369329c4d8fb2a010d8c41b8, type: 2}
+    - {fileID: 11400000, guid: 7bd402e4a781cb94e849b85d6dbfade5, type: 2}
+    - {fileID: 11400000, guid: 1443027a652905e40861f40fb36cac59, type: 2}
+    - {fileID: 11400000, guid: 1295dc899ff14c445860e78e490334ac, type: 2}
+    - {fileID: 11400000, guid: 85b50e5f6de75234f9bee2dbf2a81a70, type: 2}
+    - {fileID: 11400000, guid: 2de0d7cf1f37be34aa2ceebf87cfa27c, type: 2}
+    - {fileID: 11400000, guid: a9e8af210c3518144b30478c2a0f5b83, type: 2}
+    - {fileID: 11400000, guid: 772fa3ede6e766d4b953f877d5dc7d92, type: 2}

@@ -1,0 +1,1 @@
+public enum CardType {分解反应,化合反应,置换反应,复分解反应}

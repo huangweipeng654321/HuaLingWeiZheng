@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a188b1e77c7150142a21f361f8847508, type: 3}
+  m_Name: Level 6
+  m_EditorClassIdentifier: 
+  initialMaterials:
+  - materialInfo: {fileID: 11400000, guid: 1737b47ca3846f04c9925e00e5dead82, type: 2}
+    count: 6
+  - materialInfo: {fileID: 11400000, guid: 9be9ef7be91de3e499dca02320d6783c, type: 2}
+    count: 1
+  - materialInfo: {fileID: 11400000, guid: 9bb5d9af4bb15954c996966294f4fbfb, type: 2}
+    count: 1
+  initialAtoms: []
+  reactionMachines:
+  - type: "\u590D\u5206\u89E3\u53CD\u5E94\u53D1\u751F\u5668"
+    unresolvedEquations:
+    - "?? + ?HCl -\u65E0- 1NaCl + 1?"
+    - "?? + 1CuSO4 -\u65E0- 1Cu(OH)2 + 1?"
+    solvedEquations:
+    - "1NaOH + 1HCl -\u65E0- 1NaCl + 1H2O"
+    - "2NaOH + 1CuSO4 -\u65E0- 1Cu(OH)2 + 1Na2SO4"

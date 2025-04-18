@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a188b1e77c7150142a21f361f8847508, type: 3}
+  m_Name: Level 3
+  m_EditorClassIdentifier: 
+  initialMaterials:
+  - materialInfo: {fileID: 11400000, guid: ff0ea5543c017924ba69e37ed8834110, type: 2}
+    count: 1
+  - materialInfo: {fileID: 11400000, guid: 1737b47ca3846f04c9925e00e5dead82, type: 2}
+    count: 2
+  initialAtoms:
+  - atomData: {fileID: 11400000, guid: 87101c4a6d1792b46a2be5744f209916, type: 2}
+    count: 6
+  - atomData: {fileID: 11400000, guid: 83fa352e57b3869449970cae66f01638, type: 2}
+    count: 3
+  reactionMachines:
+  - type: "\u590D\u5206\u89E3\u53CD\u5E94\u53D1\u751F\u5668"
+    unresolvedEquations:
+    - "?CO2 +?NaOH -\u65E0- 1Na2CO3 + 1H2O"
+    solvedEquations:
+    - "1CO2 + 2NaOH -\u65E0- 1Na2CO3 + 1H2O"

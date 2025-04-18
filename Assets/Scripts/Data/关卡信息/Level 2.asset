@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a188b1e77c7150142a21f361f8847508, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  initialMaterials:
+  - materialInfo: {fileID: 11400000, guid: e892c9c7746748f4ba2e219dc3a88538, type: 2}
+    count: 3
+  - materialInfo: {fileID: 11400000, guid: 86c5acc3d046ea24a9befced2fc3de64, type: 2}
+    count: 1
+  - materialInfo: {fileID: 11400000, guid: f741a09b439afbf41bd8be44e2524868, type: 2}
+    count: 1
+  initialAtoms:
+  - atomData: {fileID: 11400000, guid: eda659e246d3384488a143899697c5a3, type: 2}
+    count: 4
+  reactionMachines:
+  - type: "\u5316\u5408\u53CD\u5E94\u53D1\u751F\u5668"
+    unresolvedEquations:
+    - "?H2 + ?O2 -\u70B9\u71C3- 2H2O"
+    solvedEquations:
+    - "2H2 + 1O2 -\u70B9\u71C3- 2H2O"
+  - type: "\u7F6E\u6362\u53CD\u5E94\u53D1\u751F\u5668"
+    unresolvedEquations:
+    - "?CuO + ?H2 -\u52A0\u70ED- 1Cu + 1H2O"
+    solvedEquations:
+    - "1CuO + 1H2 -\u52A0\u70ED- 1Cu + 1H2O"

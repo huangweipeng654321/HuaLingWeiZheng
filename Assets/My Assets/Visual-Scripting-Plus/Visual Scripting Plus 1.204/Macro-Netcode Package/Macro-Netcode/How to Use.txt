@@ -1,0 +1,8 @@
+1.To use Macro-Netcode :
+ *** Must install plugin "Netcode for Gameobjects" : 1.6.0 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.netcode.gameobjects
+line 2 (version) : 1.6.0
+
+
+2. Unzip file you need [Macro-Netcode] > Restart Unity Editor (Must) > Then Use as other Macro.

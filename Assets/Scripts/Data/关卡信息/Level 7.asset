@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a188b1e77c7150142a21f361f8847508, type: 3}
+  m_Name: Level 7
+  m_EditorClassIdentifier: 
+  initialMaterials:
+  - materialInfo: {fileID: 11400000, guid: 2eea00806ff574246b5f389eaba16c2d, type: 2}
+    count: 2
+  - materialInfo: {fileID: 11400000, guid: ee6770db496fcc34eafbdcced64c1877, type: 2}
+    count: 1
+  - materialInfo: {fileID: 11400000, guid: 772fa3ede6e766d4b953f877d5dc7d92, type: 2}
+    count: 1
+  - materialInfo: {fileID: 11400000, guid: 1737b47ca3846f04c9925e00e5dead82, type: 2}
+    count: 3
+  - materialInfo: {fileID: 11400000, guid: 1295dc899ff14c445860e78e490334ac, type: 2}
+    count: 1
+  - materialInfo: {fileID: 11400000, guid: 8640d6caccaf9f84b835016564622d8f, type: 2}
+    count: 1
+  initialAtoms: []
+  reactionMachines:
+  - type: "\u590D\u5206\u89E3\u53CD\u5E94\u53D1\u751F\u5668"
+    unresolvedEquations:
+    - "1? + ?H2SO4 -\u65E0- 1NaHSO4 + 1HCl"
+    - "1FeCl3 + ?? -\u65E0- ?Fe(OH)3 + ?NaCl"
+    - "?? + ?Na2SO4 -\u65E0- ?BaSO4 + ?NaCl"
+    solvedEquations:
+    - "1NaCl + 1H2SO4 -\u65E0- 1NaHSO4 + 1HCl"
+    - "1FeCl3 + 3NaOH -\u65E0- 1Fe(OH)3 + 3NaCl"
+    - "1BaCl2 + 1Na2SO4 -\u65E0- 1BaSO4 + 2NaCl"

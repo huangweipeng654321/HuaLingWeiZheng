@@ -1,0 +1,13 @@
+Step 1. *** Must install plugin "Netcode for Gameobjects" : 1.6.0 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.netcode.gameobjects
+line 2 (version) : 1.6.0
+
+Step 2. *** Must import package "Steamwork Facepunch" :
+- Link to download package: 
+	. Mediafire : https://www.mediafire.com/file/ixwvqhogcxqevor/Steamworks.zip/file
+ 	. or Google Drive: https://drive.google.com/file/d/1nag4K4CPjmxWn-_LcqO-BNvGFOlL3cGS/view?usp=sharing
+- Unzip > copy folder "Steamworks" to your project ... Your project / Assets / Steamworks 
+(or anywhere inside folder "Assets")
+
+Step 3. Unzip Macro-SteamNetwork > Restart Unity Editor (must) > Ready to use.

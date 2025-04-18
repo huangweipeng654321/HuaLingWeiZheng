@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998424b39e9cb734eb90a80ca9d170f2, type: 3}
+  m_Name: "H2O\u7684\u6027\u8D28"
+  m_EditorClassIdentifier: 
+  physicalProperties:
+  - "\uFF08   \uFF09\u7684\u6DB2\u4F53\u3002"
+  - "\u5BC6\u5EA6\u4E3A\uFF08   \uFF09\u3002"
+  - "\u6CB8\u70B9\uFF08   \uFF09\uFF0C\u7194\u70B90\u2103\u3002"
+  chemicalProperties:
+  - "\u4E0E\u91D1\u5C5E\u53CD\u5E94\u751F\u6210\uFF08   \uFF09\u3002"
+  - "\u5206\u89E3\u53CD\u5E94\u751F\u6210\uFF08   \uFF09\u3002"
+  physicalBlankAnswers:
+  - "\u65E0\u8272\u3001\u65E0\u5473"
+  - "1g/cm\xB3"
+  - "100\u2103"
+  chemicalBlankAnswers:
+  - "\u6C22\u6C14\u548C\u6C22\u6C27\u5316\u7269"
+  - "\u6C22\u6C14\u548C\u6C27\u6C14"

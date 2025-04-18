@@ -1,0 +1,32 @@
+[Install & Use]
+1. *** Must install Admob SDK version : 8.5.2 to work :
+
+- How to install : https://developers.google.com/admob/unity/quick-start 
+	(. Donwload plugin Admob Sdk 8.5.2 : https://www.mediafire.com/file/jef354nj0i0086g/GoogleMobileAds-v8.5.2.unitypackage/file)
+	(. Assets > Import Package > Custom Package > Select Admob SDK > Install )
+	(. Assets > Google Mobile Admob > Settings > Add iOS/Android "Ad Id" )
+
+2. Unzip Macro-Admob.zip
+3. Use as other Macro. You can watch Tutorial video on my Youtube Channel : Unity No Code | Leo N
+
+[P/S] : 
+. Should disable UnityAds, it might not be used same time with Admob Ads.
+. Banner : Should use 1 prefab Macro-Admob all the scenes to show 1 Banner only (use [NoMacro-DontDestroyOnLoad] )
+. App Crash : not use Text Mesh Pro object (unknown BUG) right after Ad is Closed. Do it after about 0.1 seconds
+
+
+[iOS Build] fix build in XCode - You must install Cocoapod in Mac:
+1. Open Terminal. 
+2. Run : "sudo gem install cocoapods -v 1.10.2"   (Should use this table version - To remove installed version : "sudo gem uninstall cocoapods")
+3. Right click at iOS Exported project folder (exported from Unity) -> Open Terminal at this Folder
+4. Run : pod install => file created : .xcworkspace 
+5. Open project.xcworkspace in Xcode => Build as normal 
+(.Disable Bitcode if you have this error)
+(.Remove AVFoundation in UnityFramework > then click plus icon at the end the list to add AVFoundation again: might fix SWift error from build too)
+
+[Android Build] fix fail in Unity
+1. Build Settings > Publishing tab > turn on "Custom Gradle Properties Template"
+2. At 1st Build :Build with "Target API 29" to fix build error. After build success, select API 33 for Google Play or newer version in next build. 
+(or try to disable AMRr7, turn on AMR64 only. After Build success, you can turn on AMRr7 again)
+3. Disable "Auto Android Resolve" -> Do Manually if build failed : Assets > External Dependency Manager > Android Resolver > Resolve 
+

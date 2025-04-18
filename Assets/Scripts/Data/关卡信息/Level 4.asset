@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a188b1e77c7150142a21f361f8847508, type: 3}
+  m_Name: Level 4
+  m_EditorClassIdentifier: 
+  initialMaterials:
+  - materialInfo: {fileID: 11400000, guid: 564413107b482eb47bf5f89d724108a4, type: 2}
+    count: 4
+  - materialInfo: {fileID: 11400000, guid: 4380621ceda80194183e748606aef293, type: 2}
+    count: 2
+  initialAtoms:
+  - atomData: {fileID: 11400000, guid: eda659e246d3384488a143899697c5a3, type: 2}
+    count: 6
+  - atomData: {fileID: 11400000, guid: 87101c4a6d1792b46a2be5744f209916, type: 2}
+    count: 3
+  reactionMachines:
+  - type: "\u5206\u89E3\u53CD\u5E94\u53D1\u751F\u5668"
+    unresolvedEquations:
+    - "?? -\u901A\u7535- 2H2 + 1O2"
+    solvedEquations:
+    - "2H2O -\u901A\u7535- 2H2 + 1O2"
+  - type: "\u7F6E\u6362\u53CD\u5E94\u53D1\u751F\u5668"
+    unresolvedEquations:
+    - "?? + 2H2O -\u65E0- 2NaOH + 1H2"
+    solvedEquations:
+    - "2Na + 2H2O -\u65E0- 2NaOH + 1H2"

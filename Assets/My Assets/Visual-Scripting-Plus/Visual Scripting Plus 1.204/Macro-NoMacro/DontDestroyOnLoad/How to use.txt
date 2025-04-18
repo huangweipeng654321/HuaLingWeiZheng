@@ -1,0 +1,2 @@
+. Using :
+Add this Visual Scripting script to any Objects to keep it after changing to other Scenes : [ Dont Destroy On Load ]

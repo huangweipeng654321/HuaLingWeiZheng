@@ -1,0 +1,18 @@
+1. *** Must install plugin In-App Purchase : 4.10.0 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.purchasing
+line 2 (version) : 4.10.0
+
+2. Unzip the file Macro-InAppPurchase.zip
+3. Use as other Macro. Instruction in "Use-InAppPurchase" script or You can watch Tutorial video on my Youtube Channel : Visual Scripting Plus
+
+P/S: 
+- If it works in Unity Editor, but not work after published on store ... 
+1. You might need to turn on "Unity Analytics" from Project Settings ... on Unity Website
+2. Build Settings > Other Settings > [Script Compilation] > click + icon > add "ENABLE_UNITY_SERVICES_CORE_VERBOSE_LOGGING" > click Apply
+3. Apple : Product In-app Purchase must be added to review with the app version.
+
+- Test Account :
+. Google Play : upload your game to Internal Testing , and add Tester emails to test in-app purchase with free Test Card
+. Apple Store : Apple Connect > User Access > Sandbox Testers > Add test account : 
+https://support.magplus.com/hc/en-us/articles/203809008-iOS-How-to-Test-In-App-Purchases-in-Your-App

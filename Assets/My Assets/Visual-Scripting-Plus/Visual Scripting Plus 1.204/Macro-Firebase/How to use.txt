@@ -1,0 +1,9 @@
+Using : 
+. To turn on Firebase Analytics or Google Analytics on Android/iOS... to use Google Ads to get more Installs can be counted for your new Published Games
+
+How to use :
+. Step 1 : Install Firebase to your Project  : https://firebase.google.com/docs/unity/setup
+. Step 2 : In Unity : Unzip Macro-FirebaseAnalytics & Add prefab Macro-Firebase to Hierarchy in your first Scene only. Done ! 
+
+* Build Failed ?! : open Macro-Admob to read Note "How to use". They are same how to build !
+* Work for Android & iOS build from Windows or Mac (ignore warning "the iOS build not support in Windows, it will work because final Build is on Xcode.)

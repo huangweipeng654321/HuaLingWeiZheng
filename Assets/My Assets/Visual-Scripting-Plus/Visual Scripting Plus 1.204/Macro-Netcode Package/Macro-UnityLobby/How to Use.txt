@@ -1,0 +1,20 @@
+To use Lobby : you need to install 3 plugins Netcode & Relay & Lobby
+
+1.*** Must install plugin "Netcode for Gameobjects" : 1.6.0 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.netcode.gameobjects
+line 2 (version) : 1.6.0
+
+2.*** Must install plugin "Relay" : 1.0.5 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.services.relay
+line 2 (version) : 1.0.5
+
+3. To use Macro-UnityLobby :
+*** Must install plugin "Lobby" : 1.1.2 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.services.lobby
+line 2 (version) : 1.1.2
+
+
+4. Unzip file [Macro-Netcode][Macro-UnityRelay][Macro-UnityLobby] > Restart Unity (Must) > Then Use as other Macro.

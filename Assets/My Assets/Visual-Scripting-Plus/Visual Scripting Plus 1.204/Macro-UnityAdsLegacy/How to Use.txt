@@ -1,0 +1,12 @@
+1. *** Must install Unity Ads version : 4.4.2 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.ads
+line 2 (version) : 4.4.2
+
+2. Unzip the file Macro-UnityAdsLegacy.zip
+3. Use as other Macro. You can watch Tutorial video on my Youtube Channel : Visual Scripting Plus
+
+==Fix Build on iOS
+On Xcode :
+(.Disable Bitcode if you have this error)
+(.Remove AVFoundation in UnityFramework > then click plus icon at the end the list to add AVFoundation again: might fix error Swift from build too)
