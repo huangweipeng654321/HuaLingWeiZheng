@@ -355,10 +355,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u5316\u5B66\u5F0F\u6846\u7EC4"
       objectReference: {fileID: 0}
-    - target: {fileID: 5741848747779241955, guid: abd6674e5486ec844b33f9945aefba24, type: 3}
-      propertyPath: m_TagString
-      value: "\u8F93\u5165\u6846"
-      objectReference: {fileID: 0}
     - target: {fileID: 7130811057690305992, guid: abd6674e5486ec844b33f9945aefba24, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
