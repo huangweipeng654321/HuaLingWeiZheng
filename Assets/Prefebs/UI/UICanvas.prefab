@@ -386,9 +386,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 48bf132e6795dd6439e4b984ce7b5be1, type: 2}
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":41.76535,"y":-5.625759},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"8f881116-8f39-46da-9ef1-8aa3b98ab4b9","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"6b62db96-8b52-4cbf-935b-05ac189eedfb","$version":"A","$type":"Unity.VisualScripting.Update"}],"$version":"A"}}}'
+    _objectReferences: []
 --- !u!114 &6739804716373876482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1950,6 +1949,7 @@ GameObject:
   - component: {fileID: 4770958702259707929}
   - component: {fileID: 3241625816944950878}
   - component: {fileID: 7427757064179900585}
+  - component: {fileID: 2645416610555107378}
   - component: {fileID: 8870577850869623919}
   m_Layer: 5
   m_Name: "\u901A\u5173Panel"
@@ -2034,6 +2034,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &2645416610555107378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118174103944382137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-60.80002,"y":-109.6},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"9b9a2b9c-d707-4c78-a2dd-6bdb9ff80edb","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"308e4a8b-fa3c-4646-b7c1-92e7acbf3168","$version":"A","$type":"Unity.VisualScripting.Update"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &8870577850869623919
 MonoBehaviour:
@@ -4930,6 +4945,7 @@ GameObject:
   - component: {fileID: 793344450839614259}
   - component: {fileID: 9156402737158550826}
   - component: {fileID: 8673270419395574647}
+  - component: {fileID: 2348764300335574233}
   - component: {fileID: 3759369094073335501}
   m_Layer: 5
   m_Name: "\u8BBE\u7F6EPanel"
@@ -4959,7 +4975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31.419617, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 487.7053, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &793344450839614259
@@ -5014,6 +5030,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &2348764300335574233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605191323365050303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":22.40002,"y":-58.39999},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"9b9a2b9c-d707-4c78-a2dd-6bdb9ff80edb","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"308e4a8b-fa3c-4646-b7c1-92e7acbf3168","$version":"A","$type":"Unity.VisualScripting.Update"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &3759369094073335501
 MonoBehaviour:
