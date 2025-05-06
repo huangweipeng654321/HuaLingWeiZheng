@@ -204,4 +204,16 @@ public static class StaticMethods
 
         return result;
     }//缩小输入字符串的数字部分
+    public static string ConvertNumbersToSubscripts(string input)
+    {
+        if (string.IsNullOrEmpty(input)) return input;
+
+        // 使用正则匹配所有数字并替换为下标
+        string result = Regex.Replace(input, @"\d+", match =>
+        {
+            return $"<sub>{match.Value}</sub>";
+        });
+
+        return result;
+    }//缩小输入字符串的数字部分TMP
 }
