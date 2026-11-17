@@ -6,7 +6,7 @@ Chemistry concepts taught in isolation are hard to engage with; this project use
 ## 🎮 Functionality
 A chemistry puzzle game built around three mechanics — synthesising molecules, checking chemical equations and collecting the substances produced — with related concepts connected into a coherent game structure.
 
-## Contribution
+## 💪 Contribution
 As the lead designer and developer, I drove concept-to-release delivery: gamification design, playable prototyping, cartoon-style art, AI-assisted content, project management and the promo video.
 
 ## 🛠️ Tech Stack
