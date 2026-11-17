@@ -11,7 +11,7 @@ As the lead designer and developer, I drove concept-to-release delivery: gamific
 
 ## 🛠️ Tech Stack
 Engine: Unity
-Language: Unity visual scripting + C#
+Language: Unity Visual Scripting + C#
 
 ## 🚀 How to Run
 1. Clone the repository.
